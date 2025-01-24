@@ -1,6 +1,5 @@
 ---
 title: Contact
-linkTitle: contact
 ---
 
 If you find any issues with the site, [Please raise an "issue" on our GitHub repository](https://github.com/LiberumScientia/ReproductiveRightsWiki/issues).
