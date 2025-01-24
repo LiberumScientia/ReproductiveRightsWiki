@@ -1,5 +1,6 @@
 ---
 title: Emergency Care
+linkTitle: emergency-care
 ---
 
 > The U.S. government website 'reproductiverights.gov' is now offline. The site was originally launched in 2022 by the U.S. Department of Health and Human Services. It contained information on access to abortion and reproductive health care and a Know-Your-Rights patient fact sheet. Until the site is back up, Its contents has been mirrored here. Additionally, the site can be found on the Internat Archive's "WaybackMachine" [here](https://web.archive.org/web/20250102130143/https://reproductiverights.gov/).
