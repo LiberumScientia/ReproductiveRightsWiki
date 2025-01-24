@@ -1,29 +1,33 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://reproductiverights.wiki/'
 languageCode = 'en-us'
-title = 'RR'
-theme = 'hugo-book'
+title = 'Reproductive Rights'
+theme = 'hextra'
 
+defaultContentLanguage = "en"
+sectionPagesMenu = "main"
+enableRobotsTXT = true
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
 
 [params]
-  # (Optional, default light) Sets color theme: light, dark or auto.
-  # Theme 'auto' switches between dark and light modes based on browser/os preferences
-  BookTheme = 'auto'
+site_logo = ""
+description = "While Roe v. Wade was overturned, abortion remains legal in many states, and other reproductive health care services remain protected by law."
 
-  # (Optional, default true) Controls table of contents visibility on right side of pages.
-  # Start and end levels can be controlled with markup.tableOfContents setting.
-  # You can also specify this parameter per page in front matter.
-  BookToC = true
+[[menu.main]]
+name = "Your Rights"
+pageRef = "/"
+weight = 1
 
-  # (Optional, default none) Set the path to a logo for the book. If the logo is
-  # /static/logo.png then the path would be 'logo.png'
-  BookLogo = 'logo.png'
+[[menu.main]]
+name = "Emergency Care"
+pageRef = "/emergency-care"
+weight = 2
 
-  # (Optional, default docs) Specify section of content to render as menu
-  # You can also set value to "*" to render all sections to menu
-  BookSection = 'docs'
-
-  # (Optional, default true) Enables search function with flexsearch,
-  # Index is built on fly, therefore it might slowdown your website.
-  # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch = true
+[[menu.main]]
+name = "Contact"
+pageRef = "/contact"
+weight = 3
 
